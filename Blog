@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salex Motors</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: white;
+    }
+    .navbar {
+        display: flex;
+        background-color: #333;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .navbar img {
+        height: 50px;
+        margin-right: auto;
+    }
+    .content {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+        .navbar a {
+            padding: 10px;
+            font-size: 12px;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="navbar">
+    <img src="SALEX-6-25-2024.png" alt="Salex Motors Logo">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="news.html">News</a>
+    <a href="order.html">Order</a>
+</div>
+<div class="content">
+      <h3>News</h3>
+
+      <h1>SalexMotors Board and Structure</h1>
+      <h3>2024-06-21</h3>
+
+Welcome to Salex Motors, We are a community-driven initiative dedicated to accelerating the transition to bikes and greener means of transportation in local citys while supporting the citizens of The Greator Victoria Area We are excited to share our vision, structure, and plans for the future with you.
+
+<h1>Our Mission</h1>
+
+
+ <p> At Salex Motors, our mission is to create a greener bike that works more like a car.
+We Plan for it will enhance the lives of Victoria's residents. We are committed to reinvesting all profits back into the company to continuously improve our products and services, ensuring that our mission remains at the forefront of everything we do.  <p>
+
+
+<h1>Group Structure</h1>
+
+
+ <p>Salex Motors operates with a unique and transparent structure designed to prioritize the community's needs. Here's how we are organized: <p>
+
+
+<h1>1. Community Focused:</h1>
+ <p>Unlike traditional companies or non-profits, <p>
+ <p>Salex Motors is not incorporated. This decision allows us to focus on our mission without the pressures of corporate profit goals. Our primary objective is to benefit the citizens of Victoria, BC. <p>
+
+
+<h1>2. Reinvestment of Profits:</h1>
+ <p>Every dollar earned by Salex Motors is reinvested into the company to Devlop New Products and Pay Employees <p> 
+
+ <p>This ensures that we can continually innovate and enhance our products, from developing new technologies to improving existing products. Our commitment to reinvestment is our goal. <p>
+
+
+ </h1>3. Board of Decision Makers:  </h1>
+ <p>To maintain transparency and community involvement, we are establishing a board of decision-makers.  <p>
+This board comprises members from various backgrounds, including local residents, Other Local Business Owners, and Salex Motors team members. 
+The board's primary role is to vote on every significant decision, ensuring that our actions align with our mission and the community's best interests, Board Members are unpaid so financial interests are not applicable <p>
+
+
+ <p>Apply to be on the board by emailing us alex.openmachines@gmail.com <p>
+
+
+ </h1>FaQ</h1>
+
+
+ <p>Our decision not to incorporate stems from a belief that our mission should never be overshadowed by the pursuit of profit. By remaining unincorporated, we can focus solely on our goal of helping the Victoria. We believe that this approach will enable us to stay true to our values and make a meaningful impact on our community. <p>
+
+
+
+
+ <p>We invite you to join us on this exciting journey. Whether you are a local resident, a supporter of community-focused initiatives, or someone passionate about innovative transportation solutions, there is a place for you at Salex Motors. Together, we can create a brighter, more connected future for Victoria, BC.
+
+
+Stay tuned for more updates and announcements as we continue to develop and grow. Thank you for your support and for being a part of the Salex Motors community. <p>
+
+
+Sincerely,
+
+
+Alex Rose
+
+
+
+
+</div>
+</body>
+</html>
