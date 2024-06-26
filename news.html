@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News - Salex Motors</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: black;
+    }
+    .navbar {
+        display: flex;
+        background-color: #333;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .navbar a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .navbar img {
+        height: 50px;
+        margin-right: auto;
+    }
+    .content {
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .section {
+        margin-bottom: 40px;
+   
+    }
+    @media (max-width: 600px) {
+        .navbar a {
+            padding: 10px;
+            font-size: 12px;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="navbar">
+    <img src="SALEX-6-25-2024.png" alt="Salex Motors Logo">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="news.html">News</a>
+    <a href="order.html">Order</a>
+</div>
+<div class="content">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .search-bar {
+            margin-bottom: 20px;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .news-item {
+            background-color: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .news-item:hover {
+            transform: scale(1.05);
+        }
+        .news-item img {
+            width: 100%;
+            height: auto;
+        }
+        .news-item-content {
+            padding: 15px;
+        }
+        .news-item-title {
+            font-size: 18px;
+            margin: 0 0 10px;
+        }
+        .news-item-date {
+            font-size: 14px;
+            color: #777;
+        }
+        .news-item-description {
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" onkeyup="searchNews()" placeholder="Search for news...">
+        </div>
+        <div class="news-grid" id="newsGrid">
+            <!-- Example News Item -->
+            <div class="news-item" onclick="window.location='#'">
+                <img src="https://lh3.googleusercontent.com/vS8Q8EbYkC4Y_R37PR6AjAHL3hwGHt06FzFhOprCcKPTTYE3QSp_jVj8vIEI0_mVPOJ2uzAvtElxf61UNXDRU50" alt="News Image">
+                <div class="news-item-content">
+                    <h3 class="news-item-title">SalexMotors Board and Structure
+</h3>
+                    <p class="news-item-date">Jun 25, 2024</p>
+                    <p class="news-item-description">Group</p>
+                </div>
+            </div>
+          
+                      <div class="news-item" onclick="window.location='#'">
+                <img src="https://camilomattis.com/cdn/shop/products/il_fullxfull.1729935844_415d_2048x.jpg?v=1559956997" alt="News Image">
+                <div class="news-item-content">
+                    <h3 class="news-item-title">Founding SalexMotors.
+</h3>
+                    <p class="news-item-date">Jun 20, 2024</p>
+                    <p class="news-item-description">Group, Founders, Alex Rose</p>
+                </div>
+            </div>
+            <!-- More news items should follow the same structure -->
+        </div>
+    </div>
+</div>
+
+
+  
+    <script>
+        function searchNews() {
+            const input = document.getElementById('searchInput');
+            const filter = input.value.toLowerCase();
+            const newsGrid = document.getElementById('newsGrid');
+            const newsItems = newsGrid.getElementsByClassName('news-item');
+
+            for (let i = 0; i < newsItems.length; i++) {
+                const title = newsItems[i].getElementsByClassName('news-item-title')[0];
+                const txtValue = title.textContent || title.innerText;
+                if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                    newsItems[i].style.display = "";
+                } else {
+                    newsItems[i].style.display = "none";
+                }
+            }
+        }
+    </script>
